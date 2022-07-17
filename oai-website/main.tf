@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 
 module "s3_bucket_b" {
   source  = "../modules/s3website-oai"
