@@ -18,3 +18,9 @@ module "cloudfront_oai" {
   bucket_regional_domain_name = module.s3_bucket_b.bucket_regional_domain_name
 
 }
+
+
+locals {
+  hola = jsonencode(var.mapa)
+  hh = jsonencode(var.lola)
+}
