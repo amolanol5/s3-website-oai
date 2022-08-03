@@ -1,11 +1,8 @@
 variable "mapa" {
-  type = map(string)
-  default = {
-    "foo" = "bar"
-  }
+  type = map
 }
 
 variable "lola" {
   type = string
-  
+
 }

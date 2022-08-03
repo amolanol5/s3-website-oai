@@ -21,6 +21,8 @@ module "cloudfront_oai" {
 
 
 locals {
+
   hola = jsonencode(var.mapa)
   hh = jsonencode(var.lola)
 }
+
